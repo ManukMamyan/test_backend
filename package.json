@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev --respawn src/index.ts",
     "build": "cross-env NODE_ENV=production tsc",
